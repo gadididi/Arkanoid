@@ -1,0 +1,48 @@
+# Level 1
+# Single block direct hit
+
+
+START_LEVEL
+level_name:cold dragon
+ball_velocities:0,7
+background:image(background_images/dragon.jpg)
+paddle_speed:6
+paddle_width:90
+block_definitions:definitions/standard_block_definitions.txt
+blocks_start_x:25
+blocks_start_y:80
+row_height:25
+num_blocks:30
+START_BLOCKS
+GGGGGGGGGGGGGGG
+---------------
+rrrrrrrrrrrrrrr
+END_BLOCKS
+END_LEVEL
+
+
+# Level 2
+# Wide paddle with many balls
+
+START_LEVEL
+level_name: No Way!!!
+ball_velocities:30,8 45,5 60,8
+background:image(background_images/leggo.jpg)
+paddle_speed:7
+paddle_width:120
+block_definitions:definitions/standard_block_definitions.txt
+blocks_start_x:25
+blocks_start_y:80
+row_height:25
+num_blocks:15
+START_BLOCKS
+---------------
+GGGGGGGGGGGGGGG
+GGGGGGGGGGGGGGG
+GGGGGGGGGGGGGGG
+GGGGGGGGGGGGGGG
+GGGGGGGGGGGGGGG
+
+
+END_BLOCKS
+END_LEVEL
